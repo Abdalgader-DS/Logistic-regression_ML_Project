@@ -1,7 +1,10 @@
-EMPLOYEE ATTRIRION PREDICTION USING LOGISTIC REGREESION 
+# EMPLOYEE ATTRIRION PREDICTION USING LOGISTIC REGREESION 
+
  This projects puilds a logistic regreesion model to predict wether an employee is likely to leave the coumpsny , 
+ 
  the goal is to help the HR department identify high_risk employees and take proactive actions to improve retention
- -- Exploratory Data Analysis:- (EDA)
+ 
+   # Exploratory Data Analysis:- (EDA)
 
 In the EDA phase : several analyses and visualizations were performed to understand the data:
 
@@ -15,7 +18,7 @@ Correlation Heatmap: Identified relationships between numeric features and attri
 
 EDA helped highlight patterns and potential risk factors contributing to employee turnover.
 
- Feature Engineering:-
+ # Feature Engineering:-
 
 To prepare the dataset for modeling:
 
@@ -27,19 +30,19 @@ Scaled numerical features with "StandardScaler" to improve model stability and p
 
 These steps ensured that the data is in the right format for machine learning.
 
-** Model Building:-**
+  # Model Building:-
 
 A Logistic Regression model was trained after splitting the data into training and testing sets (80% - 20%).
 The model learned which patterns and features indicate whether an employee is at high risk of leaving.
 
-** Model Evaluation:-**
+  # Model Evaluation:-
 
 The model was evaluated using accuracy and classification metrics and confusion_matrix
 
 Final Accuracy: Around 85%
 This means the model can correctly predict most cases and performs well for a baseline classification model.
 
-   Key Features Affecting Attrition :-
+  # Key Features Affecting Attrition :-
 
 Based on the analysis and model behavior, the most influential factors contributing to employee attrition were:
 
@@ -55,12 +58,12 @@ Based on the analysis and model behavior, the most influential factors contribut
 
 These insights help HR teams identify at-risk employees and take preventive actions.
 
-to run the model locally
+  # to run the model locally
 -clone the repositpry 
 -install the required libraries
 -download the attrition employee file
 -read the path or the file name using pandas
 -run the file LOG_REG 
 
-DATASET SOURCE 
+# DATASET SOURCE 
 the employee attrition " dataset was taken from kaggle
